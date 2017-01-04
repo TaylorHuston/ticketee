@@ -6,8 +6,8 @@ RSpec.feature "Users can view projects" do
 
     visit "/"
 
-    click_link "Sublie Text 3"
-    expect(page.curren_url).to eq project_url(project)
+    click_link "Sublime Text 3"
+    expect(page.current_url).to eq project_url(project)
   end
 end
 
